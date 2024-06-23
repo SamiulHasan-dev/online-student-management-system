@@ -1,0 +1,147 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	position: fixed;
+	background-color: #0950a0;
+	height: 70px;
+	width:  100%;
+	z-index: 1;
+}
+
+.logo{
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+	color: White;
+	font-weight: bold;
+	line-height: 70px;
+
+}
+ul{
+	position: relative;
+	float: right;
+	margin right: 20px;
+}
+
+ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 5px;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: White;
+	font-size: 17px;
+	padding: 20px;
+}
+ul li a:hover {
+    color: white;
+    background-color: #3f76bb;
+    text-decoration: none;
+    border: groove;
+}
+ul li a:focus {
+    color: white;
+    background-color: #3f76bb;
+    text-decoration: none;
+ }
+
+.main_img{
+	width: 100%;
+	height: 700px;
+}
+
+.section1{
+	padding-top: 70px;
+}
+
+.img_text{
+	position: absolute;
+	top: 22%;
+	left: 30%;
+	color: white;
+	background-color: #315cb3;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 30px;
+}
+
+.img_text:hover{
+	color: #fef3a5;
+    background-color: #3f76bb;
+    text-decoration: none;
+}
+
+.welcome_img{
+
+	width: 100%;
+	height: 250px;
+}
+.container{
+	padding-top: 70px;
+}
+
+.teacher{
+	width: 90%;
+	height: 200px;
+}
+
+.teacher_p{
+	padding-right: 20px;
+}
+
+.label_text{
+	display: inline-block;
+	width: 100px;text-align: right;
+	padding-right: 10px;
+}
+
+.input_deg{
+	width: 30%;
+	height: 40px;
+	border-radius: 25px;
+	border: 1px solid blue;
+}
+
+.adm_int{
+	padding-top: 10px;
+}
+
+.input_txt{
+	width: 30%;
+	height: 120px;
+	border-radius: 25px;
+	border: 1px solid blue;
+}
+
+#sybmit{
+	position: relative;
+	width: 15%;
+	left: 5%;
+}
+
+footer{
+	background-color: #0950a0;
+	height: 70px;
+	width: 100%;
+}
+.footer_txt{
+	text-align: center;
+	color: white;
+	padding: 20px;
+	position: relative;
+}
+
+.adm{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.form_deg{
+	padding-top: 200px;
+}
